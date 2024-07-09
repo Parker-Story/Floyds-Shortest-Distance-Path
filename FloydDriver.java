@@ -7,7 +7,7 @@ public class FloydDriver
         try 
         {
             // Parse input data from the specified file
-            InputData inputData = FileParser.parseInput(args[0]);
+            InputData inputData = FileParser.parseInput("sample.txt");
             
             GraphData graphData = FloydsAlgorithm.computeDistanceAndPathMatrix(inputData.getAdjacencyMatrix());
 
