@@ -1,16 +1,9 @@
 # Floyds-Shortest-Distance-Path
 
-Table of Contents
-Project's Title
-Project Description
-How to Install and Run the Project
-How to Use the Project
-
 
 # Project Description
 This project is a Java application that utilizes an adjacency matrix to compute and output the shortest distances and paths between a set of vertices using the Floyd-Warshall algorithm.
 
-Overview
 The application reads input from a file named sample.txt, which contains:
 
 1. The number of vertices.
@@ -22,19 +15,8 @@ The application reads input from a file named sample.txt, which contains:
 0 to represent self-travel (e.g., vertex (1,1)).
 -1 to represent paths that need to be explored.
 
-Example: sample.txt
+![sample.txt](img/filename%20sampletxt-adj-matrix.png)
 
-6
-0 3 -1 7 -1 -1
-3 0 1 4 -1 -1
--1 1 0 2 -1 3
-7 4 2 0 6 -1
--1 -1 -1 6 0 1
--1 -1 3 -1 1 0
-3
-2 4
-4 2
-1 6
 
 * The first number, 6, represents the total number of vertices.
 * The adjacency matrix follows, with 0s representing self-travel and -1s representing paths to be explored.
