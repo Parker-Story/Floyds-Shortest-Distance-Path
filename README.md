@@ -15,7 +15,7 @@ The application reads input from a file named sample.txt, which contains:
 0 to represent self-travel (e.g., vertex (1,1)).
 -1 to represent paths that need to be explored.
 
-![sample.txt](img/filename sampletxt-adj-matrix.png)
+![sample.txt](img/sampletxt-adj-matrix.png)
 
 
 * The first number, 6, represents the total number of vertices.
