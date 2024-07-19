@@ -17,14 +17,13 @@ The application reads input from a file named sample.txt, which contains:
 
 ![sample.txt](img/sampletxt-adj-matrix.png)
 
-
 * The first number, 6, represents the total number of vertices.
 * The adjacency matrix follows, with 0s representing self-travel and -1s representing paths to be explored.
 * The number 3 indicates how many paths need to be explored.
 * The subsequent lines (2 4, 4 2, and 1 6) represent the specific paths to compute.
 
 ### Technologies Used
-Java: Chosen for its robustness and ease of handling complex algorithms.
+Java: Chosen for its robustness and ease of handling complex algorithms.<br/>
 Floyd-Warshall Algorithm: Employed to compute shortest paths efficiently.
 
 ### Challenges and Future Enhancements
